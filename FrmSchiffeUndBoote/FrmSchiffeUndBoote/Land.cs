@@ -2,7 +2,7 @@
 
 namespace SchiffeUndBoote
 {
-	class Land
+	public class Land
 	{
 		private string name;
 		private string kuerzel;
@@ -36,12 +36,6 @@ namespace SchiffeUndBoote
 			{
 				kuerzel = value;
             }
-        }
-
-        public override string ToString()
-        {
-
-			return Name + "," + Kuerzel ;
         }
     }
 }
